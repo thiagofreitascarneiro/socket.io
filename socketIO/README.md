@@ -1,8 +1,26 @@
-# React + Vite
+# Chat em Tempo Real com WebSockets
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um aplicativo de chat em tempo real desenvolvido com Express e Socket.IO no servidor, e React no cliente. Ele permite que múltiplos usuários se conectem ao mesmo servidor e troquem mensagens em tempo real.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Usuários podem se conectar com um nome de usuário único.
+- Envio e recepção de mensagens em tempo real.
+- Exibição das mensagens enviadas e recebidas com identificação do autor.
+
+## Tecnologias Utilizadas
+
+- **Backend:** Node.js, Express, Socket.IO
+- **Frontend:** React, Material-UI
+
+## Pré-requisitos
+
+Antes de começar, você vai precisar ter o Node.js e o npm (ou yarn) instalados na sua máquina.
+
+## Instalação
+
+### Clonando o Repositório
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
